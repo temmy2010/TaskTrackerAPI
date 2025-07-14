@@ -84,6 +84,7 @@ To run: dotnet test
 ## Configuration
 
 In appsettings.json:
+```
 "Jwt": {
   "Key": "A7zA!3w5g7Q@ZpLx#VkT6%RmBcY1!Xhg",
   "Issuer": "TaskTrackerAPI",
@@ -107,20 +108,22 @@ In appsettings.json:
 ## Usage Example:
 1. Register a user:
 POST /api/auth/register
+```
 {
   "username": "manager",
   "password": "Password123!",
   "role": "Manager"
 }
 
-2. Login:
+3. Login:
 POST /api/auth/login
+```
 {
   "username": "manager",
   "password": "Password123!"
 }
 
-3. Copy the returned token, click Authorize in Swagger, and test other endpoints.
+4. Copy the returned token, click Authorize in Swagger, and test other endpoints.
 
 ## Database
 SQLite file TaskTracker.db will be created in the root or /bin folder after running migrations.
