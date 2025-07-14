@@ -85,7 +85,6 @@ dotnet test
 ## Configuration
 
 In appsettings.json:
-```
 "Jwt": {
   "Key": "A7zA!3w5g7Q@ZpLx#VkT6%RmBcY1!Xhg",
   "Issuer": "TaskTrackerAPI",
