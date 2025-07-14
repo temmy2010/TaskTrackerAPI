@@ -41,6 +41,7 @@ cd TaskTrackerAPI
 ```
 **Add the database:**
 Make sure you have .NET SDK installed.
+```bash
 dotnet ef database update --project TaskTrackerAPI.Infrastructure --startup-project TaskTrackerAPI.API
 
 **Run the project:**
@@ -84,6 +85,7 @@ dotnet test
 ## Configuration
 
 In appsettings.json:
+```
 "Jwt": {
   "Key": "A7zA!3w5g7Q@ZpLx#VkT6%RmBcY1!Xhg",
   "Issuer": "TaskTrackerAPI",
