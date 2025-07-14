@@ -58,7 +58,7 @@ https://localhost:7223/swagger
 - Click Authorize in Swagger and enter: Bearer YOUR_JWT_TOKEN
 - Use role Manager to access reporting endpoints.
 
-**## Running Unit Tests**
+## Running Unit Tests
 
 Unit tests are in the Tests folder.
 To run: dotnet test
@@ -81,7 +81,7 @@ To run: dotnet test
 
 ---
 
-**## Configuration**
+## Configuration
 
 In appsettings.json:
 "Jwt": {
@@ -95,7 +95,7 @@ In appsettings.json:
 
 ---
 
-**## Tools & Libraries**
+## Tools & Libraries
 - ASP.NET Core 8
 - EF Core + SQLite
 - JWT (Microsoft.AspNetCore.Authentication.JwtBearer)
@@ -104,7 +104,7 @@ In appsettings.json:
 
 ---
 
-**## Usage Example:**
+## Usage Example:
 1. Register a user:
 POST /api/auth/register
 {
@@ -122,17 +122,17 @@ POST /api/auth/login
 
 3. Copy the returned token, click Authorize in Swagger, and test other endpoints.
 
-**## Database**
+## Database
 SQLite file TaskTracker.db will be created in the root or /bin folder after running migrations.
 
-**## Postman**
+## Postman
 To use Postman:
 - Import swagger/v1/swagger.json as a collection
 - Or call APIs manually with your JWT token in Authorization header.
 
 ---
 
-**## Contributing**
+## Contributing
 Feel free to fork, open PRs, or report issues. If you'd like, you can:
 - Add CQRS
 - Add integration tests
@@ -140,7 +140,7 @@ Feel free to fork, open PRs, or report issues. If you'd like, you can:
 
 ---
 
-**## License**
+## License
 MIT
 
-**Built with using .NET 8 & Onion Architecture**
+Built with using .NET 8 & Onion Architecture
