@@ -121,7 +121,7 @@ POST /api/auth/login
   "username": "manager",
   "password": "Password123!"
 }
-```
+
 
 4. Copy the returned token, click Authorize in Swagger, and test other endpoints.
 
