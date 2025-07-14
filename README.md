@@ -117,12 +117,14 @@ POST /api/auth/register
 ```
 2. Login:
 POST /api/auth/login
+```
 {
   "username": "manager",
   "password": "Password123!"
 }
+```
 
-3. Copy the returned token, click Authorize in Swagger, and test other endpoints.
+4. Copy the returned token, click Authorize in Swagger, and test other endpoints.
 
 ## Database
 SQLite file TaskTracker.db will be created in the root or /bin folder after running migrations.
