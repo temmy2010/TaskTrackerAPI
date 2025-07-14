@@ -38,7 +38,7 @@ TaskTrackerAPI/
 ```bash
 git clone https://github.com/temmy2010/TaskTrackerAPI.git
 cd TaskTrackerAPI
-
+```
 **Add the database:**
 Make sure you have .NET SDK installed.
 dotnet ef database update --project TaskTrackerAPI.Infrastructure --startup-project TaskTrackerAPI.API
@@ -46,7 +46,7 @@ dotnet ef database update --project TaskTrackerAPI.Infrastructure --startup-proj
 **Run the project:**
 ```bash
 dotnet run --project TaskTrackerAPI.API
-
+```
 **Open Swagger UI:**
 https://localhost:7223/swagger
 
@@ -64,8 +64,7 @@ To run:
 ```bash
 dotnet test
 
----
-
+```
 **## API Endpoints**
 
 | Method | Endpoint                 | Description                                |
@@ -94,16 +93,12 @@ In appsettings.json:
   "DefaultConnection": "Data Source=TaskTracker.db"
 }
 
----
-
 ## Tools & Libraries
 - ASP.NET Core 8
 - EF Core + SQLite
 - JWT (Microsoft.AspNetCore.Authentication.JwtBearer)
 - Swagger (Swashbuckle)
 - xUnit, Moq
-
----
 
 ## Usage Example:
 1. Register a user:
@@ -122,8 +117,7 @@ POST /api/auth/login
   "username": "manager",
   "password": "Password123!"
 }
-
-
+```
 4. Copy the returned token, click Authorize in Swagger, and test other endpoints.
 
 ## Database
