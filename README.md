@@ -110,7 +110,7 @@ POST /api/auth/register
 ```
 {
   "username": "manager",
-  "password": "Password123",
+  "password": "Password123!",
   "role": "Manager"
 }
 ```
@@ -119,7 +119,7 @@ POST /api/auth/login
 ```
 {
   "username": "manager",
-  "password": "Password123"
+  "password": "Password123!"
 }
 ```
 
