@@ -32,8 +32,6 @@ TaskTrackerAPI/
 - Swagger UI for exploring & testing endpoints
 - Unit tests covering services and controllers
 
----
-
 ## Getting Started
 
 **Clone the repository:**
@@ -45,7 +43,8 @@ cd TaskTrackerAPI
 Make sure you have .NET SDK installed.
 dotnet ef database update --project TaskTrackerAPI.Infrastructure --startup-project TaskTrackerAPI.API
 
-**Run the project:*
+**Run the project:**
+```bash
 dotnet run --project TaskTrackerAPI.API
 
 **Open Swagger UI:**
@@ -61,7 +60,9 @@ https://localhost:7223/swagger
 ## Running Unit Tests
 
 Unit tests are in the Tests folder.
-To run: dotnet test
+To run:
+```bash
+dotnet test
 
 ---
 
