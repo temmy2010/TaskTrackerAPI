@@ -114,9 +114,10 @@ POST /api/auth/register
   "password": "Password123!",
   "role": "Manager"
 }
-```
+
 2. Login:
 POST /api/auth/login
+```
 {
   "username": "manager",
   "password": "Password123!"
