@@ -133,8 +133,6 @@ To use Postman:
 
 ## Contributing
 Feel free to fork, open PRs, or report issues. If you'd like, you can:
-- Add CQRS
-- Add integration tests
 - Deploy to cloud (e.g., Azure)
 
 ---
